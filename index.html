@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <title>Ассоциация Хиджама Сунна</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f9f6; color: #222; margin: 0; }
-        header { background-color: #225536; color: white; text-align: center; padding: 60px 20px; }
+        body { font-family: Arial, sans-serif; background-color: #f3f8f5; color: #222; margin: 0; line-height: 1.6; }
+        header { background-color: #225536; color: white; padding: 60px 20px; text-align: center; }
         header h1 { margin: 0; font-size: 2.8em; }
-        header p { font-size: 1.2em; margin-top: 10px; }
+        header p { font-size: 1.2em; }
+
+        nav { background: white; padding: 1em; text-align: center; position: sticky; top: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        nav a { margin: 0 1em; text-decoration: none; color: #225536; font-weight: bold; }
 
         section { max-width: 900px; margin: 40px auto; background: white; border-radius: 10px; padding: 30px; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
         h2 { color: #225536; margin-top: 0; }
         ul { padding-left: 20px; }
+        blockquote { background: #f0f0f0; padding: 1em; border-left: 5px solid #d4af37; margin: 1em 0; font-style: italic; }
+
         .btn { display: inline-block; background: #d4af37; color: white; padding: 10px 25px; border-radius: 6px; text-decoration: none; font-weight: bold; }
         .btn:hover { background: #b9982f; }
         .image-block img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
 
-        footer { text-align: center; padding: 20px; color: #777; background: #f0f0f0; margin-top: 40px; }
+        footer { text-align: center; padding: 30px; color: #666; background: #f0f0f0; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -27,15 +32,23 @@
     <p>Обучение хиджаме и терапии пиявками — на практике и по сунне</p>
 </header>
 
-<section>
+<nav>
+    <a href="#about">О нас</a>
+    <a href="#program">Программа</a>
+    <a href="#benefits">Преимущества</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
     <h2>О нас</h2>
     <p>Ассоциация «Хиджама Сунна» — это сообщество профессионалов, практикующих и обучающих хиджаме в соответствии с исламскими традициями. Наши курсы доступны в офлайн и онлайн форматах, с упором на практику и поддержку выпускников.</p>
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1622555252544-6f9a7b82658f" alt="Обучение хиджаме">
+        <img src="https://cdn.pixabay.com/photo/2020/01/13/10/06/cupping-4760272_960_720.jpg" alt="Обучение хиджаме">
     </div>
 </section>
 
-<section>
+<section id="program">
     <h2>Программа обучения</h2>
     <ul>
         <li>Базовая теоретическая часть (видео и пособия)</li>
@@ -45,7 +58,7 @@
     </ul>
 </section>
 
-<section>
+<section id="benefits">
     <h2>Преимущества</h2>
     <ul>
         <li>Соответствие сунне</li>
@@ -55,14 +68,20 @@
     </ul>
 </section>
 
-<section>
+<section id="reviews">
+    <h2>Отзывы учеников</h2>
+    <blockquote>«Прошёл обучение, сейчас принимаю пациентов. Всё понятно и по делу.»</blockquote>
+    <blockquote>«Сунна и практика — идеальное сочетание. Спасибо за поддержку после курса!»</blockquote>
+</section>
+
+<section id="contact">
     <h2>Контакты</h2>
     <p>Telegram для записи: <a href="https://t.me/hijamasunna" target="_blank">@hijamasunna</a></p>
-    <a class="btn" href="https://t.me/hijamasunna" target="_blank">Записаться</a>
+    <p><a class="btn" href="https://t.me/hijamasunna" target="_blank">Записаться на курс</a></p>
 </section>
 
 <footer>
-    &copy; 2025 Ассоциация Хиджама Сунна. Все права защищены.
+    <p>&copy; 2025 Ассоциация Хиджама Сунна. Все права защищены.</p>
 </footer>
 
 </body>
